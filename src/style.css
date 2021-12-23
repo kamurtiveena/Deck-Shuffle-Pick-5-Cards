@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+body {
+  background: black;
+  color: white;
+}
+
+.description {
+  text-align: center;
+  font-weight: normal;
+}
+
+.description a {
+  color: gold;
+}
+
+.count {
+  background-color: red;
+}
+
+.deck {
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px 40px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Abril Fatface", cursive;
+}
+
+.card {
+  width: 100px;
+  box-sizing: border-box;
+  height: 150px;
+  padding: 10px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 30pt;
+  text-align: left;
+  color: black;
+  margin-left: -50px;
+  position: relative;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px 3px #555;
+}
+
+.card:hover {
+  top: -5px;
+  box-shadow: 2px 2px 8px 3px #333;
+  z-index: 20;
+}
+
+.card.hearts,
+.card.diamonds {
+  color: red;
+}
+
+.btn {
+  background: gold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 10px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #444;
+}
